@@ -1,6 +1,7 @@
 % Implementacja Quicksorta w Prologu
 % Autor korpo, https://github.com/korpo
 
+project_dedalus_quicksort([0],[0]).
 project_dedalus_quicksort([X],[X]).
 project_dedalus_quicksort([X|Xs],Ys) :-
   project_dedalus_quicksort_helper_partition(Xs,X,Left,Right),
